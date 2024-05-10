@@ -1,0 +1,152 @@
+
+body {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgba(12, 6, 6, 0.975);
+}
+
+.nav-link {
+  color: white;
+  display: inline;
+}
+
+.navbar-brand img {
+  width: 120px;
+  margin-left:-0.5em;
+}
+
+.navbar {
+  --bs-navbar-hover-color: none;
+
+
+}
+
+body:not(footer) {
+  color: white;
+  margin: 0 3% 3% 3%;
+}
+
+.profile-img {
+  width: 30px;
+  height: 25px;
+
+}
+
+.btn-group {
+  border-radius: 0;
+ width:7.5rem;
+ height:2rem;
+}
+
+.btn {
+  color: white;
+  --bs-btn-padding-y: 0;
+}
+
+.btn-group>.btn-group:not(:first-child),
+.btn-group>:not(.btn-check:first-child)+.btn {
+  margin-left: 1em;
+}
+
+footer {
+  color: gray;
+  margin-top:15%;
+
+}
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+      max-width: 720px;
+  }
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+  font-size: small;
+  margin-bottom: 1em;
+  transition:text-decoration 0.1s;
+}
+footer a:hover{
+  text-decoration: underline;
+  
+}
+
+footer div:last-child button {
+  border: 1px solid gray;
+  color: gray;
+  width:20%;
+  transition:color 0,1s;
+}
+footer div:last-child button:hover {
+ color:white;
+}
+
+footer div:last-child div p {
+  font-size: x-small;
+}
+
+.swiper-slide img {
+
+  transition: transform 0.2s;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.05);
+  
+}
+
+.dropdown-toggle {
+  margin-left: 0px;
+  padding-left: 0px;
+
+}
+
+.footer-small {
+  margin-left: 14.5em;
+}
+
+.swiper {
+  overflow: visible;
+
+}
+
+.swiper-slide img {
+  border-radius: 3px;
+ 
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+ 
+  color: transparent;
+  transition: all 0.3s;
+
+
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  scale: 1.25;
+  color:gray;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.input-group {
+  margin-bottom: 0;
+
+}
+
+#soon {
+  opacity: 0;
+  transition: opacity 0.5s ease 0.5s;
+}
+
+#last {
+  opacity: 0;
+  transition: opacity 0.5s ease 0.5s;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+ --bs-gutter-x: 0;
+}
